@@ -54,11 +54,5 @@ npm start
 #### Select deselect song track
 ![select_deselect_song_track](https://user-images.githubusercontent.com/66526346/164733235-fc9d3c3f-0bf9-4dba-b5eb-5e2711b7f97f.png)
 
-
-#### Create your playlist
-![create_playlist](https://user-images.githubusercontent.com/66526346/164733352-4f4cf30a-4028-48b2-8144-88c5f1fa34cf.png)
-![alert_succes](https://user-images.githubusercontent.com/66526346/164733478-3fa91e9f-912d-4598-9c92-6b352bffb083.png)
-
-
 Give me your feedback or you can ask by create an issue [here](https://github.com/pmatondang/Final_Proyek-Spotify_GIGIH_Pohh/issues)
 THANK YOU 😘
