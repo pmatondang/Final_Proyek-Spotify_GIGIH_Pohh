@@ -18,18 +18,14 @@ const CreatePlaylist = ({ onClose, onSubmit, show }) => {
 		console.log(form);
 	};
 
-
 	return (
-
 		<div className='form-container'>
 			<center>
-				<Card className='card'>
+				<div className='form-card'>
 					<form className='form' onSubmit={onSubmit}>
 						<div className='title'>
-							<h2>Create Playlist</h2>
-							<button className='btn-close' onClick={onClose}>
-								X
-							</button>
+							<h2>Create Playlist <button className='btn-close' onClick={onClose}>x</button>
+							</h2>
 						</div>
 						<div className='form-group'>
 							<label>Title</label>
@@ -55,7 +51,7 @@ const CreatePlaylist = ({ onClose, onSubmit, show }) => {
 							<button id='submit' className='btn-createForm'>Create</button>
 						</div>
 					</form>
-				</Card>
+				</div>
 			</center>
 		</div >
 	);

@@ -10,9 +10,15 @@
 	align-content: center;
 }
 
-.card {
+.form {
+	padding: 1rem;
+	border-radius: var(--radius, 1rem);
+	box-shadow: 0 0 1em hsl(var(--clr-black) / 0.2);
+}
+
+.form-card {
 	margin-inline: auto;
-	width: 24rem;
+
 }
 
 .card input,
