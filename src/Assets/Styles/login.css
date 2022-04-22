@@ -1,0 +1,29 @@
+/* Login */
+.login {
+    display: grid;
+    height: 100vh;
+    background-image: url('../Images/bg-login.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.login-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 2rem;
+    text-align: justify;
+}
+
+.img-logo {
+    width: 20rem;
+    height: 20rem;
+    float: right;
+}
+
+h2 {
+    font-size: 50px;
+}

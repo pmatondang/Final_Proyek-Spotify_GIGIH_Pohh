@@ -1,0 +1,12 @@
+/* Search */
+#tracks .search-container {
+	display: flex;
+	justify-content: right;
+	margin-bottom: 2rem;
+}
+
+#tracks form {
+	width: 30rem;
+	display: flex;
+	align-items: center;
+}

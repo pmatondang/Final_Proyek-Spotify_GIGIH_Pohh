@@ -1,0 +1,5 @@
+.card {
+	padding: 1.5rem;
+	border-radius: var(--radius, 1rem);
+	box-shadow: 0 0 1em hsl(var(--clr-black) / 0.2);
+}

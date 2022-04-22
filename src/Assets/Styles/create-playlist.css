@@ -1,0 +1,79 @@
+.form-container {
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	display: grid;
+	place-items: center;
+	padding-block: 2rem;
+	color: hsl(var(--clr-text));
+	background: hsl(var(--bg-formEls) / 0.9);
+	align-content: center;
+}
+
+.card {
+	margin-inline: auto;
+	width: 24rem;
+}
+
+.card input,
+.card textarea {
+	display: block;
+	margin-top: 0.5rem;
+}
+
+.card textarea {
+	min-height: 4rem;
+	resize: vertical;
+}
+
+.card .form .title {
+	display: flex;
+	justify-content: space-between;
+}
+
+input:focus,
+textarea:focus {
+	outline: none;
+	background-color: hsl(var(--bg-formEls) / 1);
+}
+
+.card form {
+	margin-top: 1.5rem;
+}
+
+.form-group:not(:first-child) {
+	margin-top: 1.5rem;
+}
+
+.form-group button {
+	background-color: hsl(var(--clr-primary));
+	color: hsl(var(--clr-text));
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: none;
+	padding: 1em 2em;
+	border-radius: 0.3rem;
+	width: 100%;
+	cursor: pointer;
+	font-family: 'Raleway SemiBold',
+		'"Segoe UI"',
+		'Roboto',
+		'"Helvetica Neue"',
+		'Arial',
+		'sans-serif',
+		'"Apple Color Emoji"',
+		'"Segoe UI Emoji"',
+		'"Segoe UI Symbol"';
+}
+
+.btn-create :hover {
+	background: '#fff';
+	color: '#444';
+}
+
+.card .form .title .btn-close {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	color: hsl(var(--clr-text));
+}
