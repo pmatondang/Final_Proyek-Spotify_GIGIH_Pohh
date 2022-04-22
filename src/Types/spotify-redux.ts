@@ -1,4 +1,4 @@
-import { UserProfile } from "./spotify-interfaces";
+import { UserProfile } from './spotify-interfaces';
 
 export interface IAuthState {
 	isAuthenticated: boolean;

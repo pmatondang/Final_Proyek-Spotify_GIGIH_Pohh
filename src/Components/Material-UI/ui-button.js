@@ -51,30 +51,5 @@ const SearchButton = styled(Button)({
     },
 });
 
-const ButtonSelect = styled(Button)({
-    width: '100px',
-    textTransform: 'none',
-    fontSize: 16,
-    lineHeight: 2,
-    backgroundColor: '#0BDA51',
-    color: 'black',
-    fontFamily: [
-        '-apple-system',
-        'Raleway SemiBold',
-        '"Segoe UI"',
-        'Roboto',
-        '"Helvetica Neue"',
-        'Arial',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-    ].join(','),
-    '&:hover': {
-        background: '#fff',
-        color: '#444',
-    },
-});
 
-
-export { LoginButton, SearchButton, ButtonSelect }
+export { LoginButton, SearchButton }

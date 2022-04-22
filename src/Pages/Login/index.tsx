@@ -10,7 +10,7 @@ import { LoginButton } from 'Components/Material-UI/ui-button';
 import LoginIcon from '@mui/icons-material/Login';
 import Footer from 'Components/Footer/footer';
 
-const LoginPage = () => {
+const Login = () => {
 	const dispatch = useTypedDispatch();
 	const history = useHistory();
 
@@ -25,7 +25,7 @@ const LoginPage = () => {
 
 	return (
 		<>
-			<div className='login'>
+			<div className='login' data-testid="login-test">
 				<div className='login-body'>
 					<h1><img src={logo} className='img-logo' alt='logo spotify' />
 						<h1>Hello there,,</h1>
@@ -39,4 +39,4 @@ const LoginPage = () => {
 	);
 };
 
-export default LoginPage;
+export default Login;

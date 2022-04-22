@@ -1,4 +1,4 @@
-import { UserProfile } from "../Types/spotify-interfaces";
+import { UserProfile } from '../Types/spotify-interfaces';
 
 export const authSpotify = (): void => {
 	const config = {
@@ -6,10 +6,10 @@ export const authSpotify = (): void => {
 		redirect_uri: `${process.env.REACT_APP_BASE_URL}`,
 		authorize_url: `https://accounts.spotify.com/authorize`,
 		scope: [
-			"user-read-email",
-			"user-read-private",
-			"playlist-modify-private",
-			"playlist-read-private",
+			'user-read-email',
+			'user-read-private',
+			'playlist-modify-private',
+			'playlist-read-private',
 		],
 	};
 
@@ -18,14 +18,13 @@ export const authSpotify = (): void => {
 	window.location.replace(redirectUrl);
 };
 
-// Get user info
 export const getUserInfo = async (token: string): Promise<UserProfile> => {
 	try {
-		const response = await fetch("https://api.spotify.com/v1/me/", {
-			method: "GET",
+		const response = await fetch('https://api.spotify.com/v1/me/', {
+			method: 'GET',
 			headers: {
 				Authorization: `Bearer ${token}`,
-				"Content-Type": "application/json",
+				'Content-Type': 'application/json',
 			},
 		});
 		const userData = await response.json();

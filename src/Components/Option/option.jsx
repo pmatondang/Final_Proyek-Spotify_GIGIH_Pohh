@@ -1,4 +1,3 @@
-import Card from '../Cards/card-props';
 import '../../Assets/Styles/option.css';
 
 const Option = ({ selectedTracks }) => {

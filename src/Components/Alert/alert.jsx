@@ -1,5 +1,5 @@
-import "../../Assets/Styles/alert.css";
-import Card from "../Cards/card-props";
+import '../../Assets/Styles/alert.css';
+import Card from '../Cards/card-props';
 
 const Alert = ({ header, message, show, onClose }) => {
 	if (!show) {
