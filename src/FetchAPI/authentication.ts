@@ -13,7 +13,7 @@ export const authSpotify = (): void => {
 		],
 	};
 
-	let redirectUrl = `${config.authorize_url}?client_id=${config.client_id}&response_type=token&redirect_uri=http://localhost:3000/redirect&scope=${config.scope}`;
+	let redirectUrl = `${config.authorize_url}?client_id=${config.client_id}&response_type=token&redirect_uri=${config.redirect_uri}&scope=${config.scope}`;
 
 	window.location.replace(redirectUrl);
 };
