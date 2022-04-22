@@ -54,5 +54,8 @@ npm start
 #### Select deselect song track
 ![select_deselect_song_track](https://user-images.githubusercontent.com/66526346/164733235-fc9d3c3f-0bf9-4dba-b5eb-5e2711b7f97f.png)
 
+#### Testing
+![testing](https://user-images.githubusercontent.com/66526346/164736815-ea069cae-1faa-4e68-b39f-e32d4020fd79.png)
+
 Give me your feedback or you can ask by create an issue [here](https://github.com/pmatondang/Final_Proyek-Spotify_GIGIH_Pohh/issues)
 THANK YOU 😘
